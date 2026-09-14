@@ -1,7 +1,7 @@
 
 # 1.8V Non Inverting CMOS Symmetrical OTA
 
-A complete transistor-level CMOS Symmetrical OTA design. The circuit receives a weak 1kHz sine with 1mV Amplitude, amplifies it with 54dB open loop gain (500mV Amplitude) or 22.7dB negative feedback gain (1kΩ/100kΩ resistor Pair). A NMOS Current Mirror provides the circuit with 16μΑ. 3 additional Current Mirrors are used (2 PMOS 1 NMOS), to convert the circuit to a signle-output amplifier and to bias the output NMOS Transistor. The circuit achieves consumption < 100μJ. The circuit is also tested and evaluated under different temperatures. 
+A complete transistor-level CMOS Symmetrical OTA design. The circuit receives a weak 1kHz sine with 1mV Amplitude, amplifies it with 54dB open loop gain (500mV Amplitude) or 22.7dB negative feedback gain (1kΩ/100kΩ resistor Pair). A NMOS Current Mirror provides the circuit with 16μΑ. 3 additional Current Mirrors are used (2 PMOS 1 NMOS), to convert the circuit to a signle-output amplifier and to bias the output NMOS Transistor. The circuit achieves consumption < 100μW. The circuit is also tested and evaluated under different temperatures. 
 
 All simulations and validations were performed in **LTspice**.
 
